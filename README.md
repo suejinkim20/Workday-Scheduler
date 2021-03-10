@@ -1,10 +1,21 @@
 # Workday-Scheduler
 
 ## Description
-This webpage allows users to save tasks in work-hour time blocks. When the page is refreshed, the tasks continue to show.
+This application is a simple daily planner application that allows a user to save events for each hour of the day. This application runs in the browser and features dynamically updated HTML and CSS powered by jQuery. Time elements are controled by Moment.js.
 
-Each time block is color-coded to indicate whether that hour is in the past, present or future. Events in the past are coded grey, the present hour is coded red, and future hour blocks are coded green.
+### Functional Elements:
+* When the page loads, the current date is displayed in the header
+* Time blocks are presented from the hours of 7am to 5pm
+* Each time block is color coded to indicate whether the hour is in the past, present, or future
+    * past- grey
+    * present - red
+    * future - green
+* When the user types a task into the text box for the hour and clicks the save button, the text is saved in local storage
+* When the page is refreshed the tasks continue to show
+* At the bottom of the page, there is a clear button which clears local storage and reloads the page
 
+### Current Issues
+* Currently, only the 7am time block is saving to local storage. Each time the save buttons for the other time blocks are pressed, the code is only being applied to the 7am time block.
 
 
 ## Usage
