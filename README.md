@@ -14,9 +14,6 @@ This application is a simple daily planner application that allows a user to sav
 * When the page is refreshed the tasks continue to show
 * At the bottom of the page, there is a clear button which clears local storage and reloads the page
 
-### Current Issues
-* Currently, only the 7am time block is saving to local storage. Each time the save buttons for the other time blocks are pressed, the code is only being applied to the 7am time block.
-
 
 ## Usage
 Deployed link to live site can be found at: https://suejinkim20.github.io/Workday-Scheduler/
