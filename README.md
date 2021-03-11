@@ -33,6 +33,7 @@ Original source code from UNC Boot Camp, Homework 5.
     * https://developer.mozilla.org/en-US/docs/Web/JavaScript
     * https://www.w3schools.com/jquery/
     * https://momentjs.com/
+    * https://api.jquery.com/
 
 
 ## License
